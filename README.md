@@ -1,4 +1,4 @@
-# ERU SpaceX App to consume GraphQL API
+# ReasonML/ApolloClient/GraphQLPPX SpaceX App to consume GraphQL API
 
 # Demo
 
