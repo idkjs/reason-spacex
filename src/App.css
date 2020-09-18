@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background: url('https://storage.needpix.com/rsynced_images/space-2901400_1280.jpg');
+  display: grid;
+  place-items: center;
+  font-family: 'Share Tech', sans-serif;
+}
+
+.App h1,h2,h3,h4 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 5em;
+  margin: 0;
+  font-weight: 200;
+}
