@@ -1,2 +1,2 @@
-import App from './Index.bs.js';
+import App from "./Index.bs.js";
 export default App;

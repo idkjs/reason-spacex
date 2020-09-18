@@ -12,11 +12,7 @@ let graphqlEndpoint = "https://api.spacex.land/graphql/";
 //     },
 // };
 
-let link =
-  ApolloClient.Link.HttpLink.make(
-    ~uri=_ => graphqlEndpoint,
-    (),
-  );
+let link = ApolloClient.Link.HttpLink.make(~uri=_ => graphqlEndpoint, ());
 let cache =
   ApolloClient.Cache.InMemoryCache.(
     make(
@@ -25,7 +21,10 @@ let cache =
           "Query",
           TypePolicy.make(
             ~fields=[|
-              ("launchesPast", OffsetLimitPagination(KeySpecifier([|"limit","offset"|]))),
+              (
+                "launchesPast",
+                OffsetLimitPagination(KeySpecifier([|"limit", "offset"|])),
+              ),
             |],
             (),
           ),

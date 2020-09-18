@@ -30,7 +30,10 @@
     "clean": "bsb -clean-world",
     "watch": "bsb -make-world -w",
     "schema": "npx get-graphql-schema https://api.spacex.land/graphql/ -j > graphql_schema.json",
-    "gql": "npx get-graphql-schema https://api.spacex.land/graphql/ > schema.graphql"
+    "gql": "npx get-graphql-schema https://api.spacex.land/graphql/ > schema.graphql",
+    "format:most": "prettier --write \"**/*.{md,json,js,css,ts,tsx}\"",
+    "format:re": "find src -name \"*.re\" -or -name \"*.rei\"  | xargs bsrefmt --in-place",
+    "format": "yarn format:most && yarn format:re"
   },
   "eslintConfig": {
     "extends": "react-app"

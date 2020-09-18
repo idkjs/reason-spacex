@@ -1,19 +1,15 @@
 .img-container img {
-    width: 65vw;
-    margin-top: 10px;
-    box-shadow: 0px 0px 30px 5px rgba(255, 255, 255, 0.4);
-
+  width: 65vw;
+  margin-top: 10px;
+  box-shadow: 0px 0px 30px 5px rgba(255, 255, 255, 0.4);
 }
 
-
-
 .back-button {
-    font-size: 2rem;
-    text-align: center;
-    width: 300px;
-    background: black;
-    color: white;
-    margin-top: 20px;
-    cursor: pointer;
-
+  font-size: 2rem;
+  text-align: center;
+  width: 300px;
+  background: black;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
 }
