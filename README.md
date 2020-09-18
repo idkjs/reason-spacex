@@ -2,8 +2,6 @@
 
 # Demo
 
-[![spacexdemo](spacexdemoscrn.png)](https://www.youtube.com/watch?v=6FIV198HJwY 'spacexdemo')
-
 - ReasonML
 - [reason-apollo-client](https://github.com/reasonml-community/reason-apollo-client/tree/next)
 - [@reasonml-community/graphql-ppx/ppx](https://beta.graphql-ppx.com/)
