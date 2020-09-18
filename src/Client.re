@@ -1,16 +1,4 @@
 let graphqlEndpoint = "https://api.spacex.land/graphql/";
-// let isLoggedIn =
-//   switch (Dom.Storage.(localStorage |> getItem("token"))) {
-//   | Some(_) => true
-//   | None => false
-//   };
-// let headers = {
-//   "authorization":
-//     switch (Dom.Storage.(localStorage |> getItem("token"))) {
-//     | Some(token) => token
-//     | None => ""
-//     },
-// };
 
 let link = ApolloClient.Link.HttpLink.make(~uri=_ => graphqlEndpoint, ());
 let cache =
